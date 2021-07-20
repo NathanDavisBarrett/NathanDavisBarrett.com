@@ -3,7 +3,7 @@
       <div class="namePalate">
           <span class="codeName" id="namePython" title="Python">
               <h1 class="extraText">class&#160;</h1>
-              <h1 class="actualName">NathanDavisBarrett</h1>
+              <h1 class="actualName">{{myName}}</h1>
               <h1 class="extraText">(</h1>
               <span class="attrList" v-for="(attr, index) in codeNameAttrs" :key="attr">
                   <h1 class="extraText" v-if="index != 0">,&#160;</h1>
@@ -13,7 +13,7 @@
           </span>
           <span class="codeName" id="nameCpp" title="C++">
               <h1 class="extraText">class&#160;</h1>
-              <h1 class="actualName">NathanDavisBarrett</h1>
+              <h1 class="actualName">{{myName}}</h1>
               <h1 class="extraText">():&#160;</h1>
               <span class="attrList" v-for="(attr, index) in codeNameAttrs" :key="attr">
                   <h1 class="extraText" v-if="index != 0">,&#160;</h1>
@@ -23,7 +23,7 @@
           </span>
           <span class="codeName" id="nameJava" title="Java">
               <h1 class="extraText">class&#160;</h1>
-              <h1 class="actualName">NathanDavisBarrett</h1>
+              <h1 class="actualName">{{myName}}</h1>
               <h1 class="extraText">&#160;implements&#160;</h1>
               <span class="attrList" v-for="(attr, index) in codeNameAttrs" :key="attr">
                   <h1 class="extraText" v-if="index != 0">,&#160;</h1>
@@ -35,14 +35,14 @@
               <span class="attrList" v-for="attr in codeNameAttrs" :key="attr">
                   <h1 class="extraText">&lt;{{attr}}&gt;&#160;</h1>
               </span>
-              <h1 class="actualName">&lt;NathanDavisBarrett&#160;&#47;&gt;&#160;</h1>
+              <h1 class="actualName">&lt;{{myName}}&#160;&#47;&gt;&#160;</h1>
               <span class="attrList" v-for="attr in codeNameAttrs" :key="attr">
                   <h1 class="extraText">&lt;&#47;{{attr}}&gt;&#160;</h1>
               </span>
           </span>
           <span class="codeName" id="nameSQL" title="SQL">
               <h1 class="extraText">SELECT&#160;</h1>
-              <h1 class="actualName">NathanDavisBarrett</h1>
+              <h1 class="actualName">{{myName}}</h1>
               <h1 class="extraText">&#160;FROM</h1>
               <span class="attrList" v-for="(attr, index) in codeNameAttrs" :key="attr">
                   <h1 class="extraText" v-if="index != 0">&#160;JOIN</h1>
@@ -51,7 +51,7 @@
           </span>
           <span class="codeName" id="nameVBA" title="VBA">
               <h1 class="extraText">Public&#160;</h1>
-              <h1 class="actualName">NathanDavisBarrett</h1>
+              <h1 class="actualName">{{myName}}</h1>
               <h1 class="extraText">&#160;As&#160;</h1>
               <span class="attrList" v-for="(attr, index) in codeNameAttrs" :key="attr">
                   <h1 class="extraText" v-if="index != 0">_</h1>
@@ -74,6 +74,7 @@ export default {
   name: 'Header',
   data() {
       return {
+          myName: "NathanDavisBarrett",
           codeNameAttrs: ["Engineer", "Developer", "Learner"],
       }
   }
@@ -88,12 +89,12 @@ export default {
     align-items: flex-start;
 }
 
-@media only screen and (min-width: 2050px) {
+@media only screen and (min-width: 2051px) {
     .Header {
             align-items: center;
     }
 }
-@media only screen and (max-width: 2051px) {
+@media only screen and (max-width: 2050px) {
     .Header {
         align-items: flex-start;
     }
@@ -116,7 +117,29 @@ export default {
 .codeName {
     display: flex;
     flex-direction: row;
-    font-size: large;
+}
+
+@media only screen and (max-width: 800px) {
+    .codeName {
+        font-size: xx-small;
+    }
+    .logoContainer {
+        height: 115px;
+    }
+    .logoContainer img {
+        width: 250px;
+    }
+}
+@media only screen and (min-width: 801px) {
+    .codeName {
+        font-size: large;
+    }
+    .logoContainer {
+        height: 165px;
+    }
+    .logoContainer img {
+        width: 370px;
+    }
 }
 
 .attrList {
@@ -142,11 +165,9 @@ export default {
 
     position: relative;
     width: 100%;
-    height: 165px;
 }
 
 .logoContainer img {
-    width: 370px;
     position: absolute;
     bottom: 0;
 }
