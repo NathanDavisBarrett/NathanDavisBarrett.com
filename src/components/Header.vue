@@ -1,5 +1,16 @@
 <template>
   <div class="Header">
+      <div class="profilePalate">
+          <a href="https://github.com/NathanDavisBarrett" title="GitHub">
+              <img src="GitHub-Mark-Light-120px-plus.png">
+          </a>
+          <a href="https://www.linkedin.com/in/nathandavisbarrett/" title="LinkedIn">
+              <img src="In-Blue-Logo.png.original.png">
+          </a>
+          <a href="https://scholar.google.com/citations?user=4KekiOAAAAAJ&hl=en" title="Google Scholar">
+              <img src="google-scholar.png">
+          </a>
+      </div>
       <div class="namePalate">
           <span class="codeName" id="namePython" title="Python">
               <h1 class="extraText">class&#160;</h1>
@@ -64,6 +75,25 @@
       <div class="logoContainer">
           <img src="NLogo_New_Transparent.png">
       </div>
+
+      <div class="mainName">
+          <h1>Nathan Davis Barrett</h1>
+          <div class="attrFullList">
+              <span v-for="(attr, index) in codeNameAttrs" :key="attr">
+                  <h2 v-if="index != 0">,&#160;</h2>
+                  <h2>{{attr}}</h2>
+              </span>
+          </div>
+      </div>
+
+      <div class="routerLinksContainer">
+          <div class="routerLinks">
+              <router-link class="routerLink" to="/about">About</router-link>
+              <router-link class="routerLink" to="/resume">Resume</router-link>
+              <router-link class="routerLink" to="/researchProjects">Research Projects</router-link>
+              <router-link class="routerLink" to="/personalProjects">Projects Projects</router-link>
+          </div>
+      </div>
   </div>
 </template>
 
@@ -75,7 +105,7 @@ export default {
   data() {
       return {
           myName: "NathanDavisBarrett",
-          codeNameAttrs: ["Engineer", "Developer", "Learner"],
+          codeNameAttrs: ["Engineer", "Developer", "Researcher"],
       }
   }
 }
@@ -98,6 +128,24 @@ export default {
     .Header {
         align-items: flex-start;
     }
+}
+
+.profilePalate {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.profilePalate a {
+    height: 100%;
+    padding-left: 10px;
+}
+
+.profilePalate img {
+    height: 100%;
 }
 
 .namePalate {
@@ -170,6 +218,50 @@ export default {
 .logoContainer img {
     position: absolute;
     bottom: 0;
+}
+
+.mainName {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainName h1 {
+    font-size: 7vw;
+}
+
+.attrFullList {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.attrFullList span {
+    display: flex;
+    flex-direction: row;
+}
+
+.attrFullList h2 {
+    margin: 0px;
+}
+
+.routerLinksContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.routerLinks {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 </style>
