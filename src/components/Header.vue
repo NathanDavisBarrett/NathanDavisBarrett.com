@@ -77,21 +77,24 @@
       </div>
 
       <div class="mainName">
-          <h1>Nathan Davis Barrett</h1>
+          <h1>Nathan Davis Barrett<span class="blink">_</span></h1>
           <div class="attrFullList">
               <span v-for="(attr, index) in codeNameAttrs" :key="attr">
                   <h2 v-if="index != 0">,&#160;</h2>
                   <h2>{{attr}}</h2>
+              </span>
+              <span>
+                  <h2>,&#160;...</h2>
               </span>
           </div>
       </div>
 
       <div class="routerLinksContainer">
           <div class="routerLinks">
-              <router-link class="routerLink" to="/about">About</router-link>
-              <router-link class="routerLink" to="/resume">Resume</router-link>
-              <router-link class="routerLink" to="/researchProjects">Research Projects</router-link>
-              <router-link class="routerLink" to="/personalProjects">Projects Projects</router-link>
+              <HeaderLink v-bind:linkLocation="'about'" v-bind:displayText="'About'" v-bind:selection="selection" v-on:click="setSelection('about')"/>
+              <HeaderLink v-bind:linkLocation="'cv'" v-bind:displayText="'CV'" v-bind:selection="selection" v-on:click="setSelection('cv')"/>
+              <HeaderLink v-bind:linkLocation="'research_projects'" v-bind:displayText="'Research Projects'" v-bind:selection="selection" v-on:click="setSelection('research_projects')"/>
+              <HeaderLink v-bind:linkLocation="'personal_projects'" v-bind:displayText="'Personal Projects'" v-bind:selection="selection" v-on:click="setSelection('personal_projects')"/>
           </div>
       </div>
   </div>
@@ -99,13 +102,23 @@
 
 <script>
 // @ is an alias to /src
+import HeaderLink from '@/components/HeaderLink.vue'
 
 export default {
   name: 'Header',
+  components: {
+      HeaderLink,
+  },
   data() {
       return {
           myName: "NathanDavisBarrett",
           codeNameAttrs: ["Engineer", "Developer", "Researcher"],
+          selection: "about",
+      }
+  },
+  methods: {
+      setSelection(newSelection) {
+          this.selection = newSelection;
       }
   }
 }
@@ -230,6 +243,22 @@ export default {
 
 .mainName h1 {
     font-size: 7vw;
+}
+
+.blink {
+    animation: blinker 2s cubic-bezier(0,1.19,0,0.89) infinite;
+}
+
+@keyframes blinker {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .attrFullList {

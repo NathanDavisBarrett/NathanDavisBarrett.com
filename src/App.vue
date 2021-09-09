@@ -1,7 +1,11 @@
 <template>
     <div id="app">
         <Header id="baseHeader" />
-        <router-view></router-view>
+        <router-view v-slot="{ Component }">
+            <transition name="fade" mode="out-in">
+                <component :is="Component" />
+            </transition>
+        </router-view>
     </div>
 </template>
 
@@ -12,6 +16,10 @@ export default {
     name: "Home",
     components: {
         Header,
+    },
+    created() {
+        this.$globalData = {};
+        this.$globalData["headerSelection"] = "about";
     }
 }
 </script>
@@ -34,4 +42,21 @@ export default {
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
 </style>
