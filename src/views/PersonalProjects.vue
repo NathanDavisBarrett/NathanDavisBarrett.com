@@ -8,7 +8,7 @@
                 <p>As Chemical Engineering majors, we sure are expected to know a lot about how to code. For a Computer Scientist such as myself this comes naturally, but for a lot of others it can be a major challenge.</p>
                 <p>So I've compiled all of the custom functions, classes, algorithms, procedures, etc. that I've written over the course of my time in the Chemical Engineering major into one boilerplate that is easy to import and move around. This is done so that others can have easy access to a variety of problem solving tools while still being able to see how those tools work. That's why I haven't converted the NathanLibrary to a dedcated python module and moved a lot of the heavy computing to C++. Students can see my solution, and use it as a pattern to create their own.</p>
                 <p>Additionally, a lot of the libraries we use a Chemical Engineers are not compatible with eachother (e.g. Sympy, pint, numpy, and scipy all have significant limitations in working with eachother). The NathanLibrary is written in a way to make each of these libraries comapible. One example would be the scipy's fsolve function does not work with pint variables. So I've written an explanative wrapper function "pintSolve" to rectify this.</p>
-                <p>The library can be found on my <a href="https://github.com/NathanDavisBarrett/NathanLibrary">Github</a>.</p>
+                <p>The library can be found on my <a href="https://github.com/NathanDavisBarrett/NathanLibrary" target="_blank">Github</a>.</p>
             </div>
         </div>
 

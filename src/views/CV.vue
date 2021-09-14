@@ -204,7 +204,7 @@
         <div class="cvSection">
             <h1>Journal Article</h1>
             <div class="subcvSection">
-                <p><a href="https://iopscience.iop.org/article/10.1149/1945-7111/ac0bf1">M. Nikpour, <b>N. Barrett</b>, Z. Hillman, A.I. Thompson, B.A. Mazzeo, and D.R. Wheeler, “Model for Investigating Sources of Li-Ion Battery Electrode Heterogeneity – Part 1: Electrode Drying and Calendering Processes,” 2021 J. Electrochem. Soc. 168 060547</a></p>
+                <p><a href="https://iopscience.iop.org/article/10.1149/1945-7111/ac0bf1" target="_blank">M. Nikpour, <b>N. Barrett</b>, Z. Hillman, A.I. Thompson, B.A. Mazzeo, and D.R. Wheeler, “Model for Investigating Sources of Li-Ion Battery Electrode Heterogeneity – Part 1: Electrode Drying and Calendering Processes,” 2021 J. Electrochem. Soc. 168 060547</a></p>
             </div>
         </div>
     </div>
@@ -228,7 +228,7 @@
 
 .subcvSection {
     width: inherit;
-    
+
 
     display: flex;
     flex-direction: column;

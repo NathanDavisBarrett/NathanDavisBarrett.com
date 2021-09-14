@@ -62,7 +62,7 @@
             <img src="mission.jpg">
             <div class="aboutSectionTextWrapper">
                 <h3>Church</h3>
-                <p>Church service has always been very important to me. As a young person, I was very active in my youth group and in my congregation. I also served a two year full-time mission for <a href="https://www.churchofjesuschrist.org/comeuntochrist">The Church of Jesus Christ of Latter-Day Saints</a> in Indiana.</p>
+                <p>Church service has always been very important to me. As a young person, I was very active in my youth group and in my congregation. I also served a two year full-time mission for <a href="https://www.churchofjesuschrist.org/comeuntochrist" target="_blank">The Church of Jesus Christ of Latter-Day Saints</a> in Indiana.</p>
                 <p>My mission and other church service taught me the importance of putting others' needs above my own and importance of loving every part of my life.</p>
             </div>
         </div>
