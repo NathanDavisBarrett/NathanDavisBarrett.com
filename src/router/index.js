@@ -37,4 +37,6 @@ const router = createRouter({
   routes
 })
 
+router.replace('/about')
+
 export default router
