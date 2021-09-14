@@ -113,7 +113,7 @@ export default {
       return {
           myName: "NathanDavisBarrett",
           codeNameAttrs: ["Engineer", "Developer", "Researcher"],
-          selection: "about",
+          selection: "",
       }
   },
   methods: {
