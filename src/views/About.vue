@@ -79,7 +79,7 @@
             <img src="triathalon.jpg">
             <div class="aboutSectionTextWrapper">
                 <h3>Cycling</h3>
-                <p>Whenever we got the change, my wife and I love getting out on our bikes. We're lucky to live in a place with plenty of bike trials near our house that we ride of frequently. We also have competed in a triathalon and plan on racing in more in the future.</p>
+                <p>Whenever we get the chance, my wife and I love getting out on our bikes. We're lucky to live in a place with plenty of bike trials near our house that we ride of frequently. We also have competed in a triathalon and plan on racing in more in the future.</p>
             </div>
         </div>
     </div>
