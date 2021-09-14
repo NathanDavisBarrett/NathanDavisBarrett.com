@@ -1,13 +1,13 @@
 <template>
   <div class="Header">
       <div class="profilePalate">
-          <a href="https://github.com/NathanDavisBarrett" title="GitHub">
+          <a href="https://github.com/NathanDavisBarrett" title="GitHub" target="_blank">
               <img src="GitHub-Mark-Light-120px-plus.png">
           </a>
-          <a href="https://www.linkedin.com/in/nathandavisbarrett/" title="LinkedIn">
+          <a href="https://www.linkedin.com/in/nathandavisbarrett/" title="LinkedIn" target="_blank">
               <img src="In-Blue-Logo.png.original.png">
           </a>
-          <a href="https://scholar.google.com/citations?user=4KekiOAAAAAJ&hl=en" title="Google Scholar">
+          <a href="https://scholar.google.com/citations?user=4KekiOAAAAAJ&hl=en" title="Google Scholar" target="_blank">
               <img src="google-scholar.png">
           </a>
       </div>
