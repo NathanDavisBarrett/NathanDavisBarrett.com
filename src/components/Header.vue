@@ -77,7 +77,7 @@
       </div>
 
       <div class="mainName">
-          <h1>Nathan Davis Barrett<span class="blink">_</span></h1>
+          <h1>Nathan Davis Barrett:~$<span class="blink">_</span></h1>
           <div class="attrFullList">
               <span v-for="(attr, index) in codeNameAttrs" :key="attr">
                   <h2 v-if="index != 0">,&#160;</h2>
