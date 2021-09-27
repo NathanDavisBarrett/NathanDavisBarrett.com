@@ -18,12 +18,12 @@
 
             <div class="philPoint">
                 <h3>Kindness and Respect</h3>
-                <p><b>The happiest way to live life is to be kind to yourself and others.</b> Many of the hardest parts of life can be made better simply be being kind. I try to conciously realize that virtually all people are doing their best. Getting worked up when things don't go as you'd like almost never makes the situation better. The best way to handle the best and worst times in life are to be respectful and kind.</p>
+                <p><b>The happiest way to live life is to be kind to yourself and others.</b> Many of the hardest parts of life can be made better simply by being kind. I try to conciously realize that virtually all people are doing their best. Getting worked up when things don't go as you'd like almost never makes the situation better. The best way to handle the highs and the lows in life are to be respectful and kind.</p>
             </div>
 
             <div class="philPoint">
                 <h3>Reasonability</h3>
-                <p>When decision making, everyone should <b>take a moment to think, consider various aspects of a situation, ask for valuable advice, and reflect</b>. Rushed, thoughtless, or careless decisions often lead regrets and mistakes. Aspects such as logical reasonablness, emotional awareness of yourself and others, external factors, and eventual outcomes should all be considered.</p>
+                <p>When decision making, everyone should <b>take a moment to think, consider various aspects of a situation, ask for valuable advice, and reflect</b>. Rushed, thoughtless, or careless decisions often lead to regrets and mistakes. Aspects such as logical reasonablness, emotional awareness of yourself and others, external factors, and eventual outcomes should all be considered.</p>
             </div>
 
             <div class="philPoint">
@@ -42,7 +42,7 @@
             <img src="Kate_and_Nate_Formals_058.JPG">
             <div class="aboutSectionTextWrapper">
                 <p>I was born an raised in a small town in rural Colorado. With both of my parents being school teachers, I quickly gained a love of learning and creating. </p>
-                <p>After years of studying, countless extracirricular activites, work, and play, I chose to study Chemical Engineering at Brigham Young Univeristy.</p>
+                <p>After years of studying, countless extracurricular activities, work, and play, I chose to study Chemical Engineering at Brigham Young Univeristy.</p>
                 <p>There I met and married my inspiring, beautiful, and caring wife Catherina. While I might know how to make great things for the world, she knows how to make the world great. For the time being we are still living in Provo until we both go to graduate school.</p>
             </div>
         </div>
@@ -51,8 +51,8 @@
         <div class="aboutSection">
             <div class="aboutSectionTextWrapper">
                 <h3>Music</h3>
-                <p>Music has been a large part of my life ever since I very young. It's pushed me to try my hardest, to love what I do, and to love sharing my talents with others.</p>
-                <p>I've been involved in a variety of ensembles (The U.S. Army All-American Marching Band, The BYU Cougar Marching/Pep Bands, The Colorado All-State Band, The Western Colorado Honor Chior, various Jazz ensebles, etc.) and loved each one.</p>
+                <p>Music has been a large part of my life ever since I was very young. It's pushed me to try my hardest, to love what I do, and to love sharing my talents with others.</p>
+                <p>I've been involved in a variety of ensembles (The U.S. Army All-American Marching Band, The BYU Cougar Marching/Pep Bands, The Colorado All-State Band, The Western Colorado Honor Choir, various Jazz ensembles, etc.) and loved each one.</p>
                 <p>For me, music is a way to connect with myself in a different way than I can in other aspects of living.</p>
             </div>
             <img src="Saxastar.png">
@@ -63,14 +63,14 @@
             <div class="aboutSectionTextWrapper">
                 <h3>Church</h3>
                 <p>Church service has always been very important to me. As a young person, I was very active in my youth group and in my congregation. I also served a two year full-time mission for <a href="https://www.churchofjesuschrist.org/comeuntochrist" target="_blank">The Church of Jesus Christ of Latter-Day Saints</a> in Indiana.</p>
-                <p>My mission and other church service taught me the importance of putting others' needs above my own and importance of loving every part of my life.</p>
+                <p>My mission and other church service taught me the importance of putting others' needs above my own and the importance of loving every part of my life.</p>
             </div>
         </div>
 
         <div class="aboutSection">
             <div class="aboutSectionTextWrapper">
                 <h3>Philosophical Discussion</h3>
-                <p>I love discussing ideas about the universe with anyone who's willing to to stretch and be stretched. My wife and I love to talk about our ideas over our favotire foods: Pizza, Pizza, and Pizza.</p>
+                <p>I love discussing ideas about the universe with anyone who's willing to stretch and be stretched. My wife and I love to talk about our ideas over our favorite foods: Pizza, Pizza, and Pizza.</p>
             </div>
             <img src="pizza.jpg">
         </div>
@@ -79,7 +79,7 @@
             <img src="triathalon.jpg">
             <div class="aboutSectionTextWrapper">
                 <h3>Cycling</h3>
-                <p>Whenever we get the chance, my wife and I love getting out on our bikes. We're lucky to live in a place with plenty of bike trials near our house that we ride of frequently. We also have competed in a triathalon and plan on racing in more in the future.</p>
+                <p>Whenever we get the chance, my wife and I love getting out on our bikes. We're lucky to live in a place with plenty of bike trails near our house that we ride on frequently. We also have competed in a triathalon and plan on racing in more in the future.</p>
             </div>
         </div>
     </div>

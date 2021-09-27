@@ -10,7 +10,7 @@
                 <p>B.S. Chemical Engineering</p>
                 <ul>
                     <li>Current GPA: 3.99/4.00 (Major), 3.98/4.00 (Overall)</li>
-                    <li>Minor: Compuer Science</li>
+                    <li>Minor: Computer Science</li>
                 </ul>
             </div>
         </div>

@@ -112,7 +112,7 @@ export default {
   data() {
       return {
           myName: "NathanDavisBarrett",
-          codeNameAttrs: ["Engineer", "Developer", "Researcher"],
+          codeNameAttrs: ["Researcher","Student","Engineer", "Developer"],
           selection: "",
       }
   },
