@@ -18,7 +18,7 @@
               <h1 class="extraText">(</h1>
               <span class="attrList" v-for="(attr, index) in codeNameAttrs" :key="attr">
                   <h1 class="extraText" v-if="index != 0">,&#160;</h1>
-                  <h1 class="extraText">{{attr}}</h1>
+                  <h1 class="extraText">{{attr.split(" ").join("")}}</h1>
               </span>
               <h1 class="extraText">): &#9660;</h1>
           </span>
@@ -28,7 +28,17 @@
               <h1 class="extraText">():&#160;</h1>
               <span class="attrList" v-for="(attr, index) in codeNameAttrs" :key="attr">
                   <h1 class="extraText" v-if="index != 0">,&#160;</h1>
-                  <h1 class="extraText">public {{attr}}</h1>
+                  <h1 class="extraText">public {{attr.split(" ").join("")}}</h1>
+              </span>
+              <h1 class="extraText">&#160;&#123; &hellip; &#125;</h1>
+          </span>
+          <span class="codeName" id="nameSwift" title="Swift">
+              <h1 class="extraText">public protocol&#160;</h1>
+              <h1 class="actualName">{{myName}}</h1>
+              <h1 class="extraText">:&#160;</h1>
+              <span class="attrList" v-for="(attr, index) in codeNameAttrs" :key="attr">
+                  <h1 class="extraText" v-if="index != 0">,&#160;</h1>
+                  <h1 class="extraText">{{attr.split(" ").join("")}}</h1>
               </span>
               <h1 class="extraText">&#160;&#123; &hellip; &#125;</h1>
           </span>
@@ -38,17 +48,17 @@
               <h1 class="extraText">&#160;implements&#160;</h1>
               <span class="attrList" v-for="(attr, index) in codeNameAttrs" :key="attr">
                   <h1 class="extraText" v-if="index != 0">,&#160;</h1>
-                  <h1 class="extraText">{{attr}}</h1>
+                  <h1 class="extraText">{{attr.split(" ").join("")}}</h1>
               </span>
               <h1 class="extraText">&#160;&#123; &hellip; &#125;</h1>
           </span>
           <span class="codeName" id="nameHTML" title="HTML, CSS, JavaScript, Vue.js">
               <span class="attrList" v-for="attr in codeNameAttrs" :key="attr">
-                  <h1 class="extraText">&lt;{{attr}}&gt;&#160;</h1>
+                  <h1 class="extraText">&lt;{{attr.split(" ").join("")}}&gt;&#160;</h1>
               </span>
               <h1 class="actualName">&lt;{{myName}}&#160;&#47;&gt;&#160;</h1>
               <span class="attrList" v-for="attr in codeNameAttrs" :key="attr">
-                  <h1 class="extraText">&lt;&#47;{{attr}}&gt;&#160;</h1>
+                  <h1 class="extraText">&lt;&#47;{{attr.split(" ").join("")}}&gt;&#160;</h1>
               </span>
           </span>
           <span class="codeName" id="nameSQL" title="SQL">
@@ -57,7 +67,7 @@
               <h1 class="extraText">&#160;FROM</h1>
               <span class="attrList" v-for="(attr, index) in codeNameAttrs" :key="attr">
                   <h1 class="extraText" v-if="index != 0">&#160;JOIN</h1>
-                  <h1 class="extraText">&#160;{{attr}}</h1>
+                  <h1 class="extraText">&#160;{{attr.split(" ").join("")}}</h1>
               </span>
           </span>
           <span class="codeName" id="nameVBA" title="VBA">
@@ -66,7 +76,7 @@
               <h1 class="extraText">&#160;As&#160;</h1>
               <span class="attrList" v-for="(attr, index) in codeNameAttrs" :key="attr">
                   <h1 class="extraText" v-if="index != 0">_</h1>
-                  <h1 class="extraText">{{attr}}</h1>
+                  <h1 class="extraText">{{attr.split(" ").join("")}}</h1>
               </span>
               <h1 class="extraText">&#160;&hellip;</h1>
           </span>
@@ -82,9 +92,6 @@
               <span v-for="(attr, index) in codeNameAttrs" :key="attr">
                   <h2 v-if="index != 0">,&#160;</h2>
                   <h2>{{attr}}</h2>
-              </span>
-              <span>
-                  <h2>,&#160;...</h2>
               </span>
           </div>
       </div>
@@ -112,7 +119,7 @@ export default {
   data() {
       return {
           myName: "NathanDavisBarrett",
-          codeNameAttrs: ["Researcher","Student","Engineer", "Developer"],
+          codeNameAttrs: ["Thermophysical Simulation Engineer"],
           selection: "",
       }
   },

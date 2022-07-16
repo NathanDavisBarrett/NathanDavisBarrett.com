@@ -5,11 +5,12 @@
             <div class="subcvSection">
                 <div class="subcvSectionHeader">
                     <h4>Brigham Young University (BYU)</h4>
-                    <p>Projected Graduation: April 2022</p>
+                    <p>September 2015 - April 2022</p>
                 </div>
                 <p>B.S. Chemical Engineering</p>
                 <ul>
-                    <li>Current GPA: 3.99/4.00 (Major), 3.98/4.00 (Overall)</li>
+                    <li>GPA: 3.97/4.00</li>
+                    <li>Magna Cum Laude</li>
                     <li>Minor: Computer Science</li>
                 </ul>
             </div>
@@ -62,6 +63,20 @@
 
         <div class="cvSection">
             <h1>Work & Volunteer Experience</h1>
+
+            <div class="subcvSection">
+                <div class="subcvSectionHeader">
+                    <h4>Computational Physics Engineer</h4>
+                    <p>May 2022 - Present</p>
+                </div>
+                <p>PassiveLogic</p>
+                <ul>
+                    <li>Deduced potential sources of error within obscure simulation framework within a matter of weeks of starting at the company.</li>
+                    <li>Developed and implemented a series of unit tests to verify the correct implementation of physics simulation componenets.</li>
+                    <li>Designed and created the undrlying data structures to govergn the physics of thermal conduction and humid air.</li>
+                </ul>
+            </div>
+
             <div class="subcvSection">
                 <div class="subcvSectionHeader">
                     <h4>Teaching Assistant / Lab Instructor</h4>
@@ -85,7 +100,7 @@
             <div class="subcvSection">
                 <div class="subcvSectionHeader">
                     <h4>Volunteer Tutor</h4>
-                    <p>October 2019 - Present</p>
+                    <p>October 2019 - December 2021</p>
                 </div>
                 <p>Y-Serve Tutoring</p>
                 <ul>
@@ -112,6 +127,10 @@
         <div class="cvSection">
             <h1>Awards & Honors</h1>
             <div class="subcvSection">
+                <div class="honor">
+                    <p>BYU Chemical Engineering Outstanding Senior</p>
+                    <p>2022</p>
+                </div>
                 <div class="honor">
                     <p>BYU Chemical Engineering Outstanding Junior</p>
                     <p>2021</p>
@@ -143,7 +162,7 @@
                     <p></p>
                 </div>
                 <div class="compactList">
-                    <p>Molecular Modeling, Computational Problem Solving, Data Structures, Advanced Programing Concepts, Computational Fluid Dynamics</p>
+                    <p>High-Performance and Parallel Computing, Control Theory, Molecular Modeling, Computational Problem Solving, Data Structures, Advanced Programing Concepts, Computational Fluid Dynamics</p>
                 </div>
             </div>
 
@@ -166,7 +185,7 @@
                     <p></p>
                 </div>
                 <div class="compactList">
-                    <p>Python, C++, C, CUDA, MATLAB, VBA, Java, JavaScript, HTML, CSS</p>
+                    <p>Python, C++, C, Swift, CUDA, MATLAB, VBA, Java, JavaScript, HTML, CSS</p>
                 </div>
             </div>
 
@@ -186,7 +205,7 @@
                     <p></p>
                 </div>
                 <div class="compactList">
-                    <p>Smoothed-Particle Hydrodynamics, Molecular Dynamics, Monte Carlo Simulation, Quantum Mechanics, Computational Fluid Dynamics, Parallel Computing, Software Engineering, Machine Learning</p>
+                    <p>Parallel Computing, Deep Learning, Software Performance Optimization, Smoothed-Particle Hydrodynamics, Molecular Dynamics, Monte Carlo Simulation, Quantum Mechanics, Computational Fluid Dynamics, Software Engineering, Machine Learning</p>
                 </div>
             </div>
 
